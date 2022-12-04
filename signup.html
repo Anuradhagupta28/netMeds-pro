@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="signin.css">
+    
+</head>
+<body>
+  <div id="container">
+    <div id="mainbox">
+        <a href="homepage.html">
+            <div class="mainImg">
+                <img src="https://www.netmeds.com/assets/gloryweb/images/home-logo-netmeds-new.svg">
+            </div>
+        </a>
+        <div id="searchBox">
+            <select id="sel">
+                <option value=""> Deliver to <span class="blue">110008</span>
+                </option>
+                <option class="val" value="Other"> Other
+                </option>
+            </select>
+            <input id="searchbar" type="text" name="search" placeholder="Search Medicines and Wellness Product." />
+        </div>
+        <div id="boxes">
+            <div class="b1"> <a href=""> <img class="icon"
+                        src="https://www.netmeds.com/assets/gloryweb/images/icons/upload_rx.svg"> &nbsp;Upload</a>
+            </div>
+            <div class="b1">
+                <span id="numprod"></span>
+                <img class="icon" src="	https://www.netmeds.com/assets/gloryweb/images/icons/cart_icon.svg"> &nbsp;
+                <a href="cart.html"> Cart
+            </div>
+            <div class="b1">
+                <img class="icon" src="https://www.netmeds.com/assets/gloryweb/images/icons/profile_icon.svg">&nbsp;
+                <a href="signin.html"> SignIn/SignUp
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+   
+
+    <div id = preparent>
+    <div id = parent>
+        <div>
+            <img src="https://www.netmeds.com/images/cms/wysiwyg/cms/1588773798_sign-in-banner-new.png" alt="img">
+        </div>
+        <div id="box2">
+            <h2>Create Account</h2>
+            <form>
+            <label>Email</label>
+            <br>
+            <input type="email"  placeholder="Enter Your Email" id="email">
+            <br>
+            <label>First Name</label>
+            <br>
+            <input type="text"  placeholder="Enter Your First Name" id="firstname">
+            <br>
+            <label>Last Name</label>
+            <br>
+            <input type="text"  placeholder="Enter Your Last Name" id="lastname">
+            <br>
+            <label>Phone Number</label>
+            <br>
+            <input type="number"  placeholder="Enter Your Phone Number" id="number">
+            <br>
+            <label class="sent1">VERIFYING PHONE NUMBER</label>
+            <P class="sent">We have sent 6-digit OTP</P>
+            <br>
+            <input type="number"  placeholder="Enter Your OTP" id="checkOtp">
+            <button class="btn2" id="signup">VERIFY OTP</button>
+        </form>
+        </div>
+    </div>
+</div>
+</body>
+<script src="signup.js">
+   
+</script>
+</html>

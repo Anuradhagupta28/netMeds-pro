@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+        /* Navbar Css Start her*/
+
+        #container {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+
+#mainbox {
+  width: 100%;
+  height: 100px;
+  background-color: #32aeb1;
+  font-family: LatoSemiBold;
+  position: fixed;
+  margin-left: -10px;
+  margin-top: -10px;
+  z-index: 1;
+}
+
+.mainImg {
+  width: 200px;
+  margin: 15px;
+  vertical-align: middle;
+  height: 50px;
+  background-color: #32aeb1;
+  display: inline-block;
+  font-family: LatoSemiBold;
+  margin-left: 170px;
+  margin-top: 30px;
+}
+
+#searchBox {
+  font-family: LatoSemiBold;
+  width: 42%;
+  height: 45px;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1px;
+  margin: 18px;
+  background: white;
+  margin-left: -20px;
+}
+#sel {
+  width: 25%;
+  height: 30px;
+  vertical-align: middle;
+  margin: 8px;
+  border: none;
+  display: inline-block;
+  color: #24aeb1;
+  font-family: LatoSemiBold;
+}
+#searchbar {
+  width: 70%;
+  height: 90%;
+  border: transparent;
+}
+.val {
+  width: 60px;
+  height: 20px;
+}
+
+#boxes {
+  width: 400px;
+  height: 23px;
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-weight: 500;
+  margin-top: -25px;
+}
+
+.b1 {
+  width: 120px;
+  height: 9px;
+  display: inline-block;
+  padding: 5px;
+  color: white;
+  font-weight: 500
+}
+.b1 a {
+  text-decoration: none;
+  color: white
+}
+
+.icon {
+  margin: -5px;
+}
+
+#numprod {
+  display: block;
+  background: #ee4380 !important;
+  color: #fff !important;
+  border-radius: 6.5px;
+  padding: 0px;
+  margin-bottom: -7px;
+  width: 17px;
+  text-align: center;
+  line-height: 14px;
+  font-family: LatoBold;
+  font-size: 10px;
+  margin-left: 11px;
+}
+
+/* navbar end css here*/
+
+
+        #cartfirsdiv{
+            width: 80%;
+            justify-content: center;
+            margin: auto;
+        }
+        #emptycart{
+            width: 20%;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin: auto;
+            margin-top: 200px;
+            text-align: center;
+        }
+        #coupon_button {
+        background-color: teal;
+        border: transparent;
+        color: white;
+        padding: 12px;
+        }
+
+        #coupon_button > a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="mainbox">
+            <a href="homepage.html">
+                <div class="mainImg">
+                    <img src="https://www.netmeds.com/assets/gloryweb/images/home-logo-netmeds-new.svg">
+                </div>
+            </a>
+            <div id="searchBox">
+                <select id="sel">
+                    <option value=""> Deliver to <span class="blue">110008</span>
+                    </option>
+                    <option class="val" value="Other"> Other
+                    </option>
+                </select>
+                <input id="searchbar" type="text" name="search" placeholder="Search Medicines and Wellness Product." />
+            </div>
+            <div id="boxes">
+                <div class="b1"> <a href=""> <img class="icon"
+                            src="https://www.netmeds.com/assets/gloryweb/images/icons/upload_rx.svg"> &nbsp;Upload</a>
+                </div>
+                <div class="b1">
+                    <span id="numprod"></span>
+                    <img class="icon" src="	https://www.netmeds.com/assets/gloryweb/images/icons/cart_icon.svg"> &nbsp;
+                    <a href="cart.html"> Cart
+                </div>
+                <div class="b1">
+                    <img class="icon" src="https://www.netmeds.com/assets/gloryweb/images/icons/profile_icon.svg">&nbsp;
+                    <a href="signin.html"> SignIn/SignUp
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    <div id ="cartfirsdiv">
+    <div>
+    <h2>My Cart</h2>
+    </div>
+    <div id="emptycart">
+        <img src="https://www.netmeds.com/msassets/images/emptycart.svg" alt="emptyimage">
+        <h3>Your Cart is empty!</h3>
+        <p>You have no items added in the cart.
+            Explore and add products you like!
+            </p>
+        <button id="coupon_button"><a href="productpage.html"> ADD PRODUCTS
+        </a></button>
+    </div>
+</div>
+</body>
+</html>

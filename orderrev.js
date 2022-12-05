@@ -21,6 +21,6 @@ var carttotal = JSON.parse(localStorage.getItem("order-page"))
     document.getElementById("paybtn").addEventListener("click", myPay)
     function myPay() {
         alert("Payment Successful ")
-        window.location.href = "homepage.html"
+        window.location.href = "index.html"
     }
     document.querySelector("#total").innerText = ("RS " + carttotal);

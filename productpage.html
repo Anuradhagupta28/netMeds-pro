@@ -767,7 +767,32 @@ data1.map(function(elem){
       cart.push(elem)
       localStorage.setItem("cart-page",JSON.stringify(cart))
     }
+document.querySelector("#htl").addEventListener("click",sortfun);
+function sortfun(){
+  var run=document.getElementById("htl").innerText;
+  console.log(run);
+  if(run=="high to low" ){
+    data1.sort(function(a,b){
+      return b.rs-a.rs;
+    })
+    
+  }
 
+displayitems(data1)
+}
+document.querySelector("#lth").addEventListener("click",sortsfun);
+function sortsfun(){
+  var tun=document.getElementById("lth").innerText;
+  console.log(tun);
+  if(tun=="low to high" ){
+    data1.sort(function(a,b){
+      return a.rs-b.rs;
+    })
+    
+  }
+
+displayitems(data1)
+}
 // --------------------------------------------------
 
 var data2=[

@@ -7,7 +7,7 @@ function signUp(){
     if (phone.length == 10){
         if(otp=="123456"){
         alert("Sign Up Successfully")
-        window.location.href="homepage.html"
+        window.location.href="index.html"
     }else{
         alert("Please Enter valid OTP")
     }

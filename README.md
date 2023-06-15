@@ -1,5 +1,4 @@
-# netMeds-pro
-Netmeds.com is the  Indian  pharmacy company, who sell the quality medicines at reasonable prices to over 7 million customers – PAN India. Pradeep Dadha founded the company in 2010
+
 # NetMeds Website Clone
 
 Netmeds.com is the  Indian  pharmacy company, who sell the quality medicines at reasonable prices to over 7 million customers – PAN India. Pradeep Dadha founded the company in 2010

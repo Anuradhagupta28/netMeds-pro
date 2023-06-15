@@ -37,7 +37,7 @@ To use the application, follow these steps:
 
 ## Deployed Link
 
-The website is deployed on Vercel at the following link: https://6470e059cede841f1ef326bf--comforting-mandazi-1fceb8.netlify.app/
+The website is deployed on netlify at the following link: https://6470e059cede841f1ef326bf--comforting-mandazi-1fceb8.netlify.app/
 
 ## Contributing
 
